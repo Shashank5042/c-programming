@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<math.h>
+void main()
+{
+    int a,b;
+    printf("Ether the number=");
+    scanf("%d",&a);
+    b=sqrt(a);
+    if(b*b==a)
+    printf("THE squre root is =%d",b);
+else
+    printf("THE given num is not perfect square num");
+}
